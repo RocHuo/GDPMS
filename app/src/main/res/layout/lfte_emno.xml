@@ -9,13 +9,23 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="#3F51B5">
+<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
         <Button
+=======
+
+        <Button
+            android:id="@+id/info"
+>>>>>>> bingxing
             style="@style/setting_text"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_alignParentLeft="true"
             android:text="个人信息"
             />
+<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
+=======
+
+>>>>>>> bingxing
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

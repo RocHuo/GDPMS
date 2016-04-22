@@ -33,7 +33,11 @@
 
     <string name="gdpms_notice">公告</string>
     <string name="gdpms_done_list">已选课题列表</string>
+<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
     <string name="gdpms_task">课题名称</string>
+=======
+    <string name="gdpms_task_name">课题名称</string>
+>>>>>>> bingxing
     <string name="gdpms_year">申请学年</string>
     <string name="gdpms_who">指导老师</string>
     <string name="gdpms_number">学生人数</string>
@@ -47,6 +51,7 @@
     <string name="gdpms_hasworks">是否实物作品</string>
     <string name="gdpms_message_content">课题内容介绍</string>
     <string name="gdpms_task_require">毕业设计（论文）要求</string>
+<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
     <!--<string name="gdpms_task">课题名称</string>-->
     <!--<string name="gdpms_task">课题名称</string>-->
     <!--<string name="gdpms_task">课题名称</string>-->
@@ -58,6 +63,34 @@
     <!--<string name="gdpms_task">课题名称</string>-->
     <!--<string name="gdpms_task">课题名称</string>-->
 
+=======
+
+    <string name="gdpms_my_result">我的成绩</string>
+    <string name="gdpms_first_result">开题成绩</string>
+    <string name="gdpms_mid_result">中期成绩</string>
+    <string name="gdpms_reply_result">答辩成绩</string>
+    <string name="gdpms_total_result">总成绩</string>
+    <string name="gdpms_good_result">优秀论文情况</string>
+    <string name="gdpms_result_rank">成绩等级</string>
+
+    <string name="gdpms_college">学院</string>
+    <string name="gdpms_major">专业</string>
+    <string name="gdpms_id">学号</string>
+    <string name="gdpms_name">学生姓名</string>
+    <string name="gdpms_class">班级</string>
+    <string name="gdpms_longbook">燕山大学毕业设计(论文)任务书</string>
+    <string name="gdpms_book_title">题目</string>
+    <string name="gdpms_title_name">题目名称</string>
+    <string name="gdpms_title_nature">题目性质</string>
+    <string name="gdpms_title_type">题目类型</string>
+    <string name="gdpms_title_from">题目来源</string>
+    <string name="gdpms_mian_content">主要内容</string>
+    <string name="gdpms_base_require">基本要求</string>
+    <string name="gdpms_referece">参考资料</string>
+    <!--<string name="gdpms_task">周次</string>-->
+    <!--<string name="gdpms_task">课题名称</string>-->
+    <!--<string name="gdpms_task">课题名称</string>-->
+>>>>>>> bingxing
 
 
 

@@ -44,6 +44,10 @@ public class Notice_Activity extends Activity {
      private TextView title;
      private ListView main_list;
      private SlidingMenu changestate;
+<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
+=======
+    private  Button info;
+>>>>>>> bingxing
 
 
 
@@ -63,8 +67,12 @@ public class Notice_Activity extends Activity {
         main_list=(ListView)findViewById(R.id.main_list);
         changestate=(SlidingMenu)findViewById(R.id.sliding);
         title =(TextView)findViewById(R.id.title);
+<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
 
 
+=======
+        info= (Button) findViewById(R.id.info);
+>>>>>>> bingxing
 
         android.app.FragmentManager contentfragment=getFragmentManager();
         FragmentTransaction transaction=contentfragment.beginTransaction();
@@ -169,7 +177,17 @@ public class Notice_Activity extends Activity {
                         }
                     });
 
+<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
 
+=======
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Notice_Activity.this,InfoActivity.class);
+                startActivity(i);
+            }
+        });
+>>>>>>> bingxing
 
     }
 

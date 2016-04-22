@@ -26,6 +26,15 @@
         <activity android:name=".DoneActivity"
         android:label="@string/app_name">
     </activity>
+<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
+=======
+        <activity android:name=".InfoActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".SetPhoneNumberActivity"
+            android:label="@string/app_name">
+        </activity>
+>>>>>>> bingxing
         <!--<activity android:name=""-->
             <!--android:label="@string/app_name">-->
         <!--</activity>-->
