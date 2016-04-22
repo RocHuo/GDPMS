@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="xuanti"/>
-=======
-    <include layout="@layout/all_bar"/>
->>>>>>> bingxing
+        android:text="xuanti" />
+
     <ListView
         android:id="@+id/answer_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
 
-=======
->>>>>>> bingxing
-        android:background="#2B2B2B">
-    </ListView>
+        android:background="#2B2B2B"></ListView>
 
 </LinearLayout>

@@ -33,11 +33,7 @@ public class DoneFragment extends Fragment {
     public void onStart() {
         super.onStart();
         ListView listview= (ListView) getActivity().findViewById(R.id.done_list);
-<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
         String[] string={DbHelper.TABLE_NAME_TASK_TITLE};
-=======
-        String[] string={};
->>>>>>> bingxing
         ArrayAdapter<String> adapter=new ArrayAdapter<String>(getActivity(), R.layout.array_item,string);
         listview.setAdapter(adapter);
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {

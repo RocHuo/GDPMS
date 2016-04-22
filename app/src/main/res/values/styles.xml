@@ -14,19 +14,4 @@
         <item name="android:textColor">@drawable/common_cell_text_selector</item>
         <item name="android:textSize">20sp</item>
     </style>
-<<<<<<< 2b2fc41fe5a5c4f93c856aba2090f6c6a9424678
-=======
-    <style name="left_style">
-        <item name="android:textSize">15sp</item>
-        <item name="android:textColor">#a0a0a0</item>
-        <item name="android:gravity">center|left</item>
-        <item name="android:layout_gravity">center_vertical</item>
-    </style>
-    <style name="content_style">
-        <item name="android:textSize">13sp</item>
-        <item name="android:textColor">#282828</item>
-        <item name="android:gravity">center</item>
-        <item name="android:layout_gravity">center_vertical</item>
-    </style>
->>>>>>> bingxing
 </resources>
