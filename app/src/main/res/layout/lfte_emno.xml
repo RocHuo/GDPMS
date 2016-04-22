@@ -20,7 +20,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:src="@drawable/ic_launcher" />
+            android:background=""
+            android:src="@drawable/LIST2"
+            android:layout_centerVertical="true" />
 
     </RelativeLayout>
 
