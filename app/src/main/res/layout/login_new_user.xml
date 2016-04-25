@@ -19,7 +19,27 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="@string/gdpms_user" />
+            android:text="@string/gdpms_user"
+            android:textSize="44px"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/gdpms_password"
+            android:textSize="44px"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -36,7 +56,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="@string/gdpms_password" />
+            android:text="@string/gdpms_repassword"
+            android:textSize="44px"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -53,7 +74,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="@string/gdpms_repassword" />
+            android:text="@string/gdpms_phone"
+            android:textSize="44px"/>
 
         <EditText
             android:layout_width="wrap_content"
@@ -70,24 +92,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:text="@string/gdpms_phone" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:ems="10" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:text="@string/gdpms_email" />
+            android:text="@string/gdpms_email"
+            android:textSize="44px"/>
 
         <EditText
             android:layout_width="wrap_content"

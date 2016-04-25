@@ -8,9 +8,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
-import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
 /**
@@ -41,7 +38,7 @@ public class DoneActivity  extends Activity{
         mBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(DoneActivity.this,Notice_Activity.class);
+                Intent i=new Intent(DoneActivity.this,NoticeActivity.class);
                 startActivity(i);
             }
         });

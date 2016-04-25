@@ -80,7 +80,7 @@ public class    SlidingMenu extends HorizontalScrollView {
         }
         return super.onTouchEvent(ev);
     }
-    public void changestate(){
+    public void changeState(){
         if(isopen){
             this.smoothScrollTo(mMenuWidth,0);
             isopen=false;

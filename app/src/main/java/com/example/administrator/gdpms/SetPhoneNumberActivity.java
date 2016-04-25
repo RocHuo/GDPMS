@@ -3,7 +3,6 @@ package com.example.administrator.gdpms;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.text.InputFilter;
 import android.text.InputType;
 import android.text.method.NumberKeyListener;
@@ -30,14 +29,14 @@ public class SetPhoneNumberActivity extends Activity {
         mBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(SetPhoneNumberActivity.this, InfoActivity.class);
+                Intent i = new Intent(SetPhoneNumberActivity.this, UserInfoActivity.class);
                 startActivity(i);
             }
         });
         mSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(SetPhoneNumberActivity.this, InfoActivity.class);
+                Intent i = new Intent(SetPhoneNumberActivity.this, UserInfoActivity.class);
                 startActivity(i);
             }
         });

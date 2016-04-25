@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="10px"
-    android:shadowColor="#0f0"
+    android:shadowColor="#aaa"
     android:shadowDx="4"
     android:shadowDy="4"
     android:shadowRadius="2"

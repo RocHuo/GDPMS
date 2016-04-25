@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <include layout="@layout/lfte_emno" />
+            <include layout="@layout/left_emno" />
 
             <LinearLayout
                 android:id="@+id/right_half"
@@ -30,7 +30,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
-                        android:onClick="changestate"
+                        android:onClick="changeState"
                         android:src="@drawable/ic_launcher" />
 
                     <TextView
@@ -55,11 +55,9 @@
                     android:id="@+id/content"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"></LinearLayout>
-
+                    android:orientation="vertical">
+                </LinearLayout>
             </LinearLayout>
-
         </LinearLayout>
-
     </com.example.administrator.view.SlidingMenu>
 </RelativeLayout>

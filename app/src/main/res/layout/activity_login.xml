@@ -4,12 +4,12 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:background="#3F51B5"
-        android:gravity="left|center_vertical"
-        android:text="@string/gdpms_title" />
+    <!--<TextView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="#3F51B5"-->
+    <!--android:gravity="left|center_vertical"-->
+    <!--android:text="@string/gdpms_title" />-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,10 +18,10 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="123dp"
+            android:layout_height="123dp"
             android:layout_gravity="center"
-            android:src="@drawable/college" />
+            android:src="@drawable/ysdalpha_0" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -117,9 +117,7 @@
             android:id="@android:id/list"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="2">
-
-        </ListView>
+            android:layout_weight="2"></ListView>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -135,8 +133,5 @@
                 android:layout_height="wrap_content"
                 android:text="@string/gdpms_registe" />
         </LinearLayout>
-
     </LinearLayout>
-
-
 </LinearLayout>

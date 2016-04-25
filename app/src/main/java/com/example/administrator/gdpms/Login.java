@@ -18,9 +18,8 @@ public class Login extends Activity {
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(Login.this,Notice_Activity.class);
+                Intent i=new Intent(Login.this,NoticeActivity.class);
                 startActivity(i);
-
             }
         });
 
