@@ -33,7 +33,7 @@ public class    SlidingMenu extends HorizontalScrollView {
         wm.getDefaultDisplay().getMetrics(outMetrice);
         mScreenWidth=outMetrice.widthPixels;
 
-        mMenuRigthPadding=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,100,context.getResources().getDisplayMetrics());
+        mMenuRigthPadding=(int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,230,context.getResources().getDisplayMetrics());
 
 
 
@@ -69,7 +69,7 @@ public class    SlidingMenu extends HorizontalScrollView {
         switch (action){
             case MotionEvent.ACTION_UP:
                 int scrollX=getScrollX();
-                if (scrollX >= mMenuWidth / 2){
+                if (scrollX >= mMenuWidth / 3){
                     this.smoothScrollTo(mMenuWidth,0);
                     isopen=false;
                 }else {

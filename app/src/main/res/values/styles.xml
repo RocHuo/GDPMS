@@ -29,4 +29,12 @@
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">center_vertical</item>
     </style>
+    <style name="title_font">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="menu_text_font">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>

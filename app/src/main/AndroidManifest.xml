@@ -35,6 +35,10 @@
             android:name=".UserInfoActivity"
             android:label="@string/app_name">
         </activity>
+        <activity
+            android:name=".SetPhoneNumberActivity"
+            android:label="@string/app_name">
+        </activity>
         <!--<activity android:name=""-->
         <!--android:label="@string/app_name">-->
         <!--</activity>-->

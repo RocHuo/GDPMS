@@ -23,17 +23,24 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="50dp">
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimary"
+                    >
 
                     <ImageButton
                         android:id="@+id/change"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="fitCenter"
                         android:onClick="changeState"
-                        android:src="@drawable/ic_launcher" />
+                        android:src="@drawable/list"
+                        android:background="#00000000"
+                        />
 
                     <TextView
+                        style="@style/title_font"
                         android:id="@+id/title"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
@@ -43,11 +50,13 @@
 
                     <ImageButton
                         android:id="@+id/set"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_alignParentRight="true"
-                        android:src="@drawable/ic_launcher"
-
+                        android:layout_centerVertical="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/config"
+                        android:background="#00000000"
                         />
                 </RelativeLayout>
 
@@ -56,6 +65,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+                    <ListView
+                        android:id="@+id/content_list_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </ListView>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
