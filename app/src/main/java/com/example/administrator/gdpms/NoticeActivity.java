@@ -8,7 +8,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -24,6 +23,7 @@ import com.example.administrator.fragment.DoneFragment;
 import com.example.administrator.fragment.LoadFragment;
 import com.example.administrator.fragment.ResultFragment;
 import com.example.administrator.fragment.ScanFragment;
+import com.example.administrator.lowgdpms.UserInfoActivity;
 import com.example.administrator.view.SlidingMenu;
 
 /**
@@ -174,6 +174,23 @@ public class NoticeActivity extends Activity {
             }
         });
 
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        //判断返回页面，设置显示的Fragment。
+        if(requestCode==1&&resultCode==3){
+            Log.d("1", "onActivityResult: ");
+            title.setText("已选课题");
+
+            android.app.FragmentManager i = getFragmentManager();
+            FragmentTransaction j = i.beginTransaction();
+            DoneFragment doneFragment = new DoneFragment();
+            j.replace(R.id.content, doneFragment);
+            j.commit();
+        }
 
     }
 

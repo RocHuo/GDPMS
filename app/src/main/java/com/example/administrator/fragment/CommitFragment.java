@@ -11,6 +11,7 @@ import com.example.administrator.gdpms.R;
 
 /**
  * Created by Administrator on 2016/4/15.
+ * 文件上传需要与数据库连接，
  */
 public class CommitFragment extends Fragment {
     @Nullable

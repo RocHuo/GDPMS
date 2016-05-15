@@ -27,16 +27,16 @@
 
         </activity>
         <activity
-            android:name=".DoneActivity"
+            android:name="com.example.administrator.undergdpms.DoneActivity"
             android:label="@string/app_name">
 
         </activity>
         <activity
-            android:name=".UserInfoActivity"
+            android:name="com.example.administrator.lowgdpms.UserInfoActivity"
             android:label="@string/app_name">
         </activity>
         <activity
-            android:name=".SetPhoneNumberActivity"
+            android:name="com.example.administrator.undergdpms.SetPhoneNumberActivity"
             android:label="@string/app_name">
         </activity>
         <!--<activity android:name=""-->
